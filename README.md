@@ -9,7 +9,7 @@ This guide provides common T-SQL commands to manage users and permissions in a S
 Run the following command to connect using `sqlcmd`:
 
 ```bash
-docker exec -it mssql-server-instance /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P 'YourStrong@PasswOrd'
+docker exec -it mssql-server-instance /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P 'YourStrong@PasswOrd' -C
 ```
 
 Replace `'YourStrong@PasswOrd'` with your actual SA password.
